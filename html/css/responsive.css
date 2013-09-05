@@ -1,0 +1,113 @@
+.responsive_menu{float:right;width:auto;position:relative;display:none;height:80px;}
+.responsive_menu a{color:#666;position:relative;z-index:10;text-transform:uppercase;font:12px 'OpenSansSemibold';padding:31px 0 0;height:50px;float:right;}
+
+.responsive_menu:hover a{}
+.responsive_menu:hover ul li a{border-bottom:none;color:#fff;}
+.responsive_menu a:hover+ul, .responsive_menu ul:hover{display:block;}
+.responsive_menu ul{position:absolute;background:#608ba6;width:180px;top:80px;display:none;right:0px;z-index:20;}
+.responsive_menu ul li{border-bottom:1px solid #fff;width:100%;float:left;border-right:none;height:auto;}
+.responsive_menu ul li a{color:#fff;padding:11px 0 11px 18px;border-bottom:none;line-height:14px;height:auto;width:90%;}
+.responsive_menu ul li a:hover{background:#2e5973;border-bottom:none;color:#fff;}
+.responsive_menu ul li ul{display:block;position:relative;top:0px;left:10px;width:94%;}
+.responsive_menu ul li ul li{border-bottom:none;}
+.responsive_menu ul li ul li a{padding:11px 0 11px 27px;}
+
+@media screen and (min-width:1400px)
+{
+	.banner img{width:auto;}
+}
+
+@media screen and (max-width:960px)
+{
+	.wrapper{width:90%;}
+	.menu{display:none;}
+	.responsive_menu{display:block;}
+	.sidebar, .article2{width:100%;margin-left:0;}
+	.article2 .img_box{width:90%;padding:5%;text-align:center;}
+	.content_box{width:300px;margin:0 20px 20px 0;}
+	.reference_link ul li{clear:left;margin:5px 0;}
+	.reference_link{margin:-30px 0 0;}
+	.article2 .img_box ul li a{float:none;}
+}
+
+@media screen and (max-width:800px)
+{
+	
+}
+
+@media screen and (max-width:768px)
+{
+	
+}
+
+@media screen and (max-width:720px)
+{
+	.aside{width:100%;}
+	.article{padding:4.8%;width:88.5%;}
+	.article .img_box img{width:100%;}
+}
+
+@media screen and (max-width:600px)
+{
+	.facility_content{width:100%;margin:10px 0 0;}
+}
+
+@media screen and (max-width:480px)
+{
+	.right_whitebox{width:16%;}
+	h1{font-size:26px;}	
+	.address_info{padding-right:0;width:100%;}
+	/*div.pp_overlay, .pp_pic_holder{display:none !important;}*/
+}
+
+@media screen and (max-width:360px)
+{	
+	.facility_content{width:100%;margin:10px 0 0;}
+	.content_info, .content_box{width:100%;}
+	.content_heading{height:auto;}
+	.content_heading .img_box{margin:0 auto;float:none;background:none;}
+	.content_heading h2{margin:12px 0 12px 0px;text-align:center;width:100%;}
+	.content_box .img_box img{width:100%;}
+	.weather_detail img{width:100%;}
+	.content_info{width:85%;}	
+	.content_left, .content_right{width:100%;}		
+	.contact_form_row .radio_box ul li{width:100%;}		
+	.contact_form_row input[type="button"]{margin:0 0 10px 0;}
+	.contact_address .map img, .contact_address .map{width:100%;}
+}
+
+@media screen and (max-width:320px)
+{	
+	.reference_link ul, .reference_link ul li, .reference_link ul li a img{width:100%;}
+	.reference_link ul li{margin:10px 0;}
+	.logo a img{width:100%;}		
+	.radio_box ul li{width:100%;}	
+	.logo{margin:26px 0px 0 0;}
+	.logo a img{width:100%;}
+	.reference_link{float:left;margin:0;}
+	.link_box ul li{width:100%;}
+	.article2 .img_box img{width:100%;}	
+	.form_row_innerbox input[type="button"]{margin:0 20px 10px 0;}
+	.cruising_speed, .team, .identification, .commander_name, .presentor_name, .equipo_radio{width:100%;margin-right:0;}
+	.form_row_innerbox .radio_box{padding:10px 17px 0 0 !important;}		
+}
+
+@media screen and (max-width:300px)
+{
+	h1{font-size:16px;}		
+}
+
+@media screen and (max-width:280px)
+{
+	.logo{width:85%;}	
+}
+
+@media screen and (max-width:240px)
+{			
+	.logo{margin:33px 0 0;}
+	.content_info{width:76%;}
+	.right_whitebox{width:20%;}
+	.calculate input[type="button"]{float:left;margin:10px 0 0;}	
+	.logo a img{width:91%;}
+	.signin_up li{margin:0 0 0 12px;}
+}

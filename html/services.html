@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Services</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+		$("area[rel^='prettyPhoto']").prettyPhoto();
+		
+		$(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: false});
+		$(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000, hideflash: true});
+
+		$("#custom_content a[rel^='prettyPhoto']:first").prettyPhoto({
+			custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
+			changepicturecallback: function(){ initialize(); }
+		});
+
+		$("#custom_content a[rel^='prettyPhoto']:last").prettyPhoto({
+			custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
+			changepicturecallback: function(){ _bsap.exec(); }
+		});
+	});
+</script>
+</head>
+
+<body>
+	<div class="header">
+    	<div class="header_top">
+	    	<div class="wrapper">
+        		<ul class="signin_up">
+                	<li><a href="#">Ingresar</a></li>
+                    <li><a href="#">Regístrate</a></li>
+                    <li><a href="#">Eng</a></li>
+                </ul>
+    	    </div>
+        </div>
+        <div class="header_bottom">
+        	<div class="wrapper">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.png" alt="" title="" /></a>
+                </div>
+                <div class="menu">
+                	<ul>
+                    	<li><a href="#">HOME</a></li>
+                        <li><a href="#" class="active">INFRAESTRUCTURA Y SERVICIOS</a></li>
+                        <li>
+                        	<a href="#">GESTION ONLINE</a>
+                        	<ul>
+                            	<li><a href="#">Formulario de Declaración general</a></li>
+                                <li><a href="#">Formulario dinámico de Plan de Vuelo</a></li>
+                                <li><a href="#">calculadora de<br /> costos de servicios</a></li>
+                                <li><a href="#">area de descargas</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div class="responsive_menu">                	
+                	<a href="#"><img src="images/responsive_menu_icon.png" alt="" title="" /></a> 
+                    <ul>
+                    	<li><a href="#" class="active">HOME</a></li>
+                        <li><a href="#">INFRAESTRUCTURA Y SERVICIOS</a></li>
+                        <li>
+                        	<a href="#">GESTION ONLINE</a>
+                        	<ul>
+                            	<li><a href="#">Formulario de Declaración general</a></li>
+                                <li><a href="#">Formulario dinámico de Plan de Vuelo</a></li>
+                                <li><a href="#">calculadora de<br /> costos de servicios</a></li>
+                                <li><a href="#">area de descargas</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">CONTACTO</a></li>
+                    </ul>                   
+                </div>
+            </div>
+            <div class="right_whitebox"></div>
+	        <div class="header_bot_border"></div>
+    	</div>        
+        <div class="banner">
+        	<img src="images/banner.jpg" alt="" title="" />
+        </div>
+    </div>
+    <div class="section">
+    	<div class="wrapper">
+        	<div class="aside">
+            	<div class="article">
+                	<h1>INFRAESTRUCTURA</h1>
+                    <div class="link_box">
+                    	<ul>
+                        	<li><a href="#">Control de Seguridad, Migraciones y<br /> Aduana en el FBO</a></li>
+                            <li><a href="#">Sala de reuniones con servicio de<br /> secretaría</a></li>
+                            <li><a href="#">Sala de Pilotos</a></li>
+                            <li><a href="#">Valet Parking</a></li>
+                            <li><a href="#">Salas VIP</a></li>
+                        </ul>
+                    </div>                                        
+                	<div class="article_bot_border"></div>
+                </div>
+                <div class="article2 space_right">
+                	<div class="img_box">
+                    	<ul class="gallery clearfix">
+                            <li><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery1]"><img src="images/carrasco.jpg" alt="" title="" /></a></li> 
+                            <li class="display_none"><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumb/thumb_02.jpg" alt="" /></a></li>
+                            <li class="display_none"><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumb/thumb_03.jpg" alt="" /></a></li>
+                            <li class="display_none"><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumb/thumb_04.jpg" alt="" /></a></li>
+                            <li class="display_none"><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumb/thumb_05.jpg" alt="" /></a></li>
+                            <li class="display_none"><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumb/thumb_06.jpg" alt="" /></a></li>
+                            <li class="display_none"><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumb/thumb_07.jpg" alt="" /></a></li>
+                        </ul>
+                    </div>                	      
+                    <div class="galllery_name carrasco">	
+                    	GALERIA DE FOTOS<br />
+						<b>CARRASCO</b>
+                    </div>                                                      
+                	<div class="article_bot_border"></div>
+                </div>
+                <div class="article2">                	
+                    <div class="img_box">
+                        <ul class="gallery clearfix">
+                            <li><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery2]"><img src="images/punta.jpg" alt="" title="" /></a></li> 
+                            <li class="display_none"><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery2]"><img src="images/thumb/thumb_02.jpg" alt="" /></a></li>
+                            <li class="display_none"><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery2]"><img src="images/thumb/thumb_03.jpg" alt="" /></a></li>
+                            <li class="display_none"><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery2]"><img src="images/thumb/thumb_04.jpg" alt="" /></a></li>
+                            <li class="display_none"><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery2]"><img src="images/thumb/thumb_05.jpg" alt="" /></a></li>
+                            <li class="display_none"><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery2]"><img src="images/thumb/thumb_06.jpg" alt="" /></a></li>
+                            <li class="display_none"><a href="images/full/full_01.jpg" rel="prettyPhoto[gallery2]"><img src="images/thumb/thumb_07.jpg" alt="" /></a></li>
+                        </ul>                                               
+                    </div>
+                    <div class="galllery_name carrasco">	
+                    	GALERIA DE FOTOS<br />
+						<b>PUNTA DEL ESTE</b>
+                    </div>                                                      
+                	<div class="article_bot_border"></div>
+                </div>
+                <div class="article">
+                	<h1>SERVICIOS</h1>
+                    <div class="link_box">
+                    	<ul>
+                        	<li><a href="#">Despacho de vuelos</a></li>
+                            <li><a href="#">Handling</a></li>
+                            <li><a href="#">Información meteorológica</a></li>
+                            <li><a href="#">Traslado de tripulación y pasajeros</a></li>
+                            <li><a href="#">Permisos y gestión de documentación</a></li>
+                            <li><a href="#">Alquiler de vehículos</a></li>
+                            <li><a href="#">Planificación de vuelos</a></li>
+                            <li><a href="#">Reserva de hoteles y restaurantes</a></li>
+                            <li><a href="#">Catering</a></li>
+                            <li><a href="#">Coordinación y venta de combustible</a></li>
+                            <li><a href="#">Taxi Aéreo</a></li>
+                            <li><a href="#">Transporte de equipaje</a></li>
+                            <li><a href="#">Charters privados y comerciales</a></li>
+                            <li><a href="#">Seguridad y protección ejecutiva</a></li>
+                            <li><a href="#">Representación ante autoridades<br /> aeronáuticas de la R.O.U.</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar">
+            	<div class="content_box">
+                	<div class="content_heading">
+                    	<div class="img_box">
+                        	<img src="images/calc_icon.png" alt="" title="" />
+                        </div>
+                        <h2>Calculadora de costos</h2>
+                    </div>
+                    <div class="content_info">
+                    	<div class="info_box topspace_none">
+                        	<span>Aeropuerto de destino </span>
+                            <div class="radio_box">
+                            	<ul>
+                            		<li><input type="radio" name="rd_calc" checked="checked" />Montevideo</li>
+                                    <li><input type="radio" name="rd_calc" />Punta del Este</li>
+                                </ul>
+                            </div>
+                            <span>M.T.O.W</span>
+                            <div class="calculate">
+                            	<input type="text" />
+                                <label>Toneladas</label>
+                                <input type="button" name="btn_calculate" value="Calcular" />
+                            </div>
+                        </div>
+                        <div class="info_box">
+                        	<ul class="price_box">
+                            	<li><p>Tasa de Aterrizaje<label>USD 0</label></p></li>
+                                <li><p>Tasa de Estacionamiento<label>USD 0</label></p></li>
+                                <li><p>Balizamiento Nocturno<label>USD 0</label></p></li>
+                                <li><p>Transporte de Pax y Tripulación<label>USD 0</label></p></li>
+                            </ul>
+                        </div>
+                        <div class="info_box">
+                        	<div class="total">
+                            	<span>Costo Total</span>
+                                <label>USD <span>0</span></label>
+                            </div>
+                        </div>
+                        <input type="button" name="btn_hre" value="Contratar" class="hire" />
+                    </div>
+                    <div class="article_bot_border"></div>
+                </div>
+                <div class="content_box">
+                	<div class="content_heading">
+                    	<div class="img_box">
+                        	<img src="images/download_icon.png" alt="" title="" />
+                        </div>
+                        <h2>Descarga de formularios</h2>
+                    </div>
+                    <div class="content_info">
+                    	<ul class="download_forms">
+                        	<li><a href="#">Formulario de Declaración general</a></li>
+                            <li><a href="#">Formulario dinámico de Plan de Vuelo</a></li>
+                        </ul>
+                    </div>
+                    <div class="article_bot_border"></div>
+            	</div>  
+                <div class="content_box">
+                    <div class="content_heading">
+                        <div class="img_box">
+                            <img src="images/weather_icon.png" alt="" title="" />
+                        </div>
+                        <h2>Pronóstico del tiempo</h2>
+                    </div>
+                    <div class="content_info">
+                    	<div class="img_box">
+                        	<img src="images/weather_forecast.jpg" alt="" title="" />
+                        </div>
+                        <div class="weather_detail">
+                        	<img src="images/weather_detail.jpg" alt="" title="" />
+                        </div>
+                    </div>
+                    <div class="article_bot_border"></div>
+            	</div>  
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+    	<div class="wrapper">
+        	<div class="footer_logo">
+            	<a href="#"><img src="images/footer_logo.png" alt="" title="" /></a>
+            </div>
+        	<div class="navigation">
+            	<ul>
+                	<li><a href="#">HOME</a></li>
+                    <li><a href="#">INFRAESTRUCTURA Y SERVICIOS</a></li>
+                    <li><a href="#">GESTION ONLINE</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </div>
+            <div class="reference_link">
+            	<ul>
+                	<li><a href="#"><img src="images/aeropuerto_de_carrasco.png" alt="" title="" /></a></li>
+                    <li><a href="#"><img src="images/aeropuerto_de_punta.png" alt="" title="" /></a></li>
+                    <li class="top_space"><label>Desarrollado por:</label><a href="#"><img src="images/clk.png" alt="" title="" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
