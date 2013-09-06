@@ -40,16 +40,21 @@
 	
 }
 
-@media screen and (max-width:720px)
+@media screen and (max-width:730px)
 {
 	.aside{width:100%;}
 	.article{padding:4.8%;width:88.5%;}
-	.article .img_box img{width:100%;}
+	.article .img_box img{width:100%;}	
+	.facility_content{width:100%;margin:10px 0 0;}
+	.content_box{width:98%;margin:0 0 20px 0;}
+	.content_heading{width:100%;}
+	.content_info{width:90%;padding:5%;}
+	/*.content_info .img_box, .content_info .weather_detail{text-align:center;width:100%;}*/
 }
 
 @media screen and (max-width:600px)
-{
-	.facility_content{width:100%;margin:10px 0 0;}
+{	
+	
 }
 
 @media screen and (max-width:480px)
@@ -69,11 +74,12 @@
 	.content_heading h2{margin:12px 0 12px 0px;text-align:center;width:100%;}
 	.content_box .img_box img{width:100%;}
 	.weather_detail img{width:100%;}
-	.content_info{width:85%;}	
+	.content_info{width:85%;padding:20px 19px 20px 20px;}	
 	.content_left, .content_right{width:100%;}		
 	.contact_form_row .radio_box ul li{width:100%;}		
 	.contact_form_row input[type="button"]{margin:0 0 10px 0;}
 	.contact_address .map img, .contact_address .map{width:100%;}
+	.reference_link{float:left;margin:10px 0 0;}
 }
 
 @media screen and (max-width:320px)
@@ -89,7 +95,7 @@
 	.article2 .img_box img{width:100%;}	
 	.form_row_innerbox input[type="button"]{margin:0 20px 10px 0;}
 	.cruising_speed, .team, .identification, .commander_name, .presentor_name, .equipo_radio{width:100%;margin-right:0;}
-	.form_row_innerbox .radio_box{padding:10px 17px 0 0 !important;}		
+	.form_row_innerbox .radio_box{padding:10px 17px 0 0 !important;}			
 }
 
 @media screen and (max-width:300px)
