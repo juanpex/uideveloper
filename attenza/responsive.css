@@ -1,9 +1,9 @@
-@media screen and max-width 1024px {
+@media screen and (max-width 1024px) {
 .slider_shadow{background-size:100% 100%;width:992px}
 .error_500 img{width:100%}
 }
 
-@media screen and max-width 960px {
+@media screen and (max-width 960px) {
 .slider_shadow{background:none;width:100%}
 .wrapper{width:890px}
 .logo{width:72%}
@@ -35,7 +35,7 @@
 #gallery ul li{margin:0 19px 19px 0!important}
 }
 
-@media screen and max-width 800px {
+@media screen and (max-width 800px) {
 .wrapper{width:750px}
 .logo{width:67%}
 .slider_bg{background:none}
@@ -84,7 +84,7 @@
 .history_data{width:100%}
 }
 
-@media screen and max-width 768px {
+@media screen and (max-width 768px) {
 .wrapper{width:720px}
 .logo{width:65%}
 .main_menu li{margin:0 20px}
@@ -109,7 +109,7 @@
 .login_part{width:77%}
 }
 
-@media screen and max-width 720px {
+@media screen and (max-width 720px) {
 .wrapper{width:668px}
 .logo{width:63%}
 .sliderContent{height:250px}
@@ -137,7 +137,7 @@
 .login_part{width:100%}
 }
 
-@media screen and max-width 640px {
+@media screen and (max-width 640px) {
 .wrapper{width:590px}
 .logo{width:58%}
 .sliderContent{height:217px}
@@ -170,7 +170,7 @@
 .about_product .sidebar{width:27%}
 }
 
-@media screen and max-width 600px {
+@media screen and (max-width 600px) {
 .wrapper{width:550px}
 .logo{width:55%}
 .sliderContent{height:203px}
@@ -216,7 +216,7 @@
 .job_detail_box3,.job_detail_box2,.job_detail_box{clear:left;width:50%;margin-bottom:10px;margin-right:0}
 }
 
-@media screen and max-width 480px {
+@media screen and (max-width 480px) {
 .wrapper{width:434px}
 .logo a,.logo a img{width:100%}
 .logo{width:44%;float:right}
@@ -262,7 +262,7 @@
 .login_detail input{width:31%}
 }
 
-@media screen and max-width 320px {
+@media screen and (max-width 320px) {
 .wrapper{width:280px}
 .header_right{padding:10px}
 .header_menu ul li{margin:0 7px}
@@ -326,7 +326,7 @@
 .history_data table tr td,.history_data table tr th{width:300px!important}
 }
 
-@media screen and max-width 240px {
+@media screen and (max-width 240px) {
 .wrapper{width:200px}
 .heder_left{width:100%}
 .logo{width:100%;float:left;margin:20px 0}
@@ -378,7 +378,7 @@
 #gallery ul li{margin:0 5px 10px!important}
 }
 
-@media screen and max-width 801px {
+@media screen and (max-width 801px) {
 .fb-like-box.fb_iframe_widget > span{width:220px!important}
 .forecastday > img{height:20px;width:20px!important}
 .responsive_menu select{width:64%}
@@ -392,7 +392,7 @@
 }
 
 
-@media screen and max-width 480px {
+@media screen and (max-width 480px) {
 	.brands{display:none}
 	.weather_block{margin:0 auto 0 -20px}
 	.header_menu li{clear:both;display:block!important;float:left;margin:4px 0!important;width:100%}
