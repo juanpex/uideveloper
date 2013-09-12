@@ -1,0 +1,808 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>List of ongoing purchase</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('table tr td a').click(function(){
+			$(this).parent().parent().next('tr').slideToggle();
+			if($(this).hasClass('arrow'))
+			{				
+				$(this).addClass('active_arrow');
+				$(this).removeClass('arrow');
+			}
+			else
+			{
+				$(this).removeClass('active_arrow');
+				$(this).addClass('arrow');
+			}
+		});	
+	});
+</script>
+</head>
+
+<body>
+	<div class="container">
+    	<div class="header">
+        	<div class="logo">
+            	<a href="#"><img src="images/logo.png" alt="" title="" /></a>
+            </div>
+            <div class="menu">
+            	<ul>
+                	<li><a href="#">Nueva Compraventa</a></li>
+                    <li><a href="purchase_list.html" class="active">Compraventas activas</a></li>
+                    <li><a href="index.html" class="login_txt">Log In</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+        	<div class="heading_box">
+            	<h1>Listado de compraventas en curso</h1>
+            </div>
+            <table cellpadding="0" cellspacing="0" border="0">
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>Id</th>
+                        <th>Fecha escritura</th>
+                        <th>Cliente</th>
+                        <th>Tipo</th>
+                        <th>Precio</th>
+                        <th>Fecha reserva</th>
+                        <th>Tipo</th>
+                        <th>Dpto</th>
+                        <th>Area</th>
+                        <th>Padron</th>
+                        <th>Broker</th>
+                        <th>Escribana</th>
+                        <th>Asignado/a</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#arrow" class="arrow"></a></td>
+                        <td>1</td>
+                        <td>15/10/2013</td>
+                        <td>Smith, Paul</td>
+                        <td>Venta</td>
+                        <td>$650000</td>
+                        <td>15/08/2013</td>
+                        <td>Campo</td>
+                        <td>Colonia</td>
+                        <td>52 has</td>
+                        <td>1445<br /> 1446</td>
+                        <td>Da Silva</td>
+                        <td>Noa. K</td>
+                        <td>Noa. K</td>
+                    </tr>
+                    <tr class="detail">
+                    	<td colspan="14">
+                        	<div class="purchase_detail">
+                            	<table>
+                                	<tr>
+                                    	<td>Id</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Fecha escritura</td>
+                                        <td>15/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Cliente</td>
+                                        <td>Smith, Paul</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Tipo</td>
+                                        <td>venta</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Precio</td>
+                                        <td>$650000</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Fecha reserva</td>
+                                        <td>15/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Tipo</td>
+                                        <td>Campo</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Dpto</td>
+                                        <td>Colonia</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Area</td>
+                                        <td>52 has</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Padron</td>
+                                        <td>1445 - 1446</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Broker</td>
+                                        <td>Da Silva</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Escribana</td>
+                                        <td>Noa K.</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Asignado a</td>
+                                        <td>Noa k.</td>
+                                    </tr>
+                                </table>
+                                <table>
+                                	<tr>
+                                    	<td>Seña girada</td>
+                                        <td>$70.000 - 11/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Saldo girado</td>
+                                        <td>$700.000 - 19/09/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>KYC</td>
+                                        <td>Recibido - 10/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>World Check</td>
+                                        <td>Dio OK - 09/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>POA</td>
+                                        <td>Hay - 22/06/2012</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Post-purchase</td>
+                                        <td>Enviado - 16/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Comprador</td>
+                                        <td>Rumsil S.A.</td>
+                                    </tr>                                    
+                                </table>
+                                <table class="observation">
+                                	<tr>
+                                    	<td>Observaciones</td>                                       
+                                    </tr>                     
+                                    <tr>
+                                    	 <td>Compra también parte de la maquinaria agrícola</td>
+                                    </tr>               
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                      	<td><a href="#arrow" class="arrow"></a></td>
+                        <td>1</td>
+                        <td>15/10/2013</td>
+                        <td>Smith, Paul</td>
+                        <td>Venta</td>
+                        <td>$650000</td>
+                        <td>15/08/2013</td>
+                        <td>Campo</td>
+                        <td>Colonia</td>
+                        <td>52 has</td>
+                        <td>1445<br /> 1446</td>
+                        <td>Da Silva</td>
+                        <td>Noa. K</td>
+                        <td>Noa. K</td>
+                    </tr>
+                    <tr class="detail">
+                    	<td colspan="14">
+                        	<div class="purchase_detail">
+                            	<table>
+                                	<tr>
+                                    	<td>Id</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Fecha escritura</td>
+                                        <td>15/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Cliente</td>
+                                        <td>Smith, Paul</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Tipo</td>
+                                        <td>venta</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Precio</td>
+                                        <td>$650000</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Fecha reserva</td>
+                                        <td>15/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Tipo</td>
+                                        <td>Campo</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Dpto</td>
+                                        <td>Colonia</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Area</td>
+                                        <td>52 has</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Padron</td>
+                                        <td>1445 - 1446</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Broker</td>
+                                        <td>Da Silva</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Escribana</td>
+                                        <td>Noa K.</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Asignado a</td>
+                                        <td>Noa k.</td>
+                                    </tr>
+                                </table>
+                                <table>
+                                	<tr>
+                                    	<td>Seña girada</td>
+                                        <td>$70.000 - 11/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Saldo girado</td>
+                                        <td>$700.000 - 19/09/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>KYC</td>
+                                        <td>Recibido - 10/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>World Check</td>
+                                        <td>Dio OK - 09/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>POA</td>
+                                        <td>Hay - 22/06/2012</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Post-purchase</td>
+                                        <td>Enviado - 16/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Comprador</td>
+                                        <td>Rumsil S.A.</td>
+                                    </tr>                                    
+                                </table>
+                                <table class="observation">
+                                	<tr>
+                                    	<td>Observaciones</td>                                       
+                                    </tr>                     
+                                    <tr>
+                                    	 <td>Compra también parte de la maquinaria agrícola</td>
+                                    </tr>               
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                      	<td><a href="#arrow" class="arrow"></a></td>
+                        <td>1</td>
+                        <td>15/10/2013</td>
+                        <td>Smith, Paul</td>
+                        <td>Venta</td>
+                        <td>$650000</td>
+                        <td>15/08/2013</td>
+                        <td>Campo</td>
+                        <td>Colonia</td>
+                        <td>52 has</td>
+                        <td>1445<br /> 1446</td>
+                        <td>Da Silva</td>
+                        <td>Noa. K</td>
+                        <td>Noa. K</td>
+                    </tr>
+                    <tr class="detail">
+                    	<td colspan="14">
+                        	<div class="purchase_detail">
+                            	<table>
+                                	<tr>
+                                    	<td>Id</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Fecha escritura</td>
+                                        <td>15/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Cliente</td>
+                                        <td>Smith, Paul</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Tipo</td>
+                                        <td>venta</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Precio</td>
+                                        <td>$650000</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Fecha reserva</td>
+                                        <td>15/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Tipo</td>
+                                        <td>Campo</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Dpto</td>
+                                        <td>Colonia</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Area</td>
+                                        <td>52 has</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Padron</td>
+                                        <td>1445 - 1446</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Broker</td>
+                                        <td>Da Silva</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Escribana</td>
+                                        <td>Noa K.</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Asignado a</td>
+                                        <td>Noa k.</td>
+                                    </tr>
+                                </table>
+                                <table>
+                                	<tr>
+                                    	<td>Seña girada</td>
+                                        <td>$70.000 - 11/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Saldo girado</td>
+                                        <td>$700.000 - 19/09/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>KYC</td>
+                                        <td>Recibido - 10/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>World Check</td>
+                                        <td>Dio OK - 09/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>POA</td>
+                                        <td>Hay - 22/06/2012</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Post-purchase</td>
+                                        <td>Enviado - 16/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Comprador</td>
+                                        <td>Rumsil S.A.</td>
+                                    </tr>                                    
+                                </table>
+                                <table class="observation">
+                                	<tr>
+                                    	<td>Observaciones</td>                                       
+                                    </tr>                     
+                                    <tr>
+                                    	 <td>Compra también parte de la maquinaria agrícola</td>
+                                    </tr>               
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                      	<td><a href="#arrow" class="arrow"></a></td>
+                        <td>1</td>
+                        <td>15/10/2013</td>
+                        <td>Smith, Paul</td>
+                        <td>Venta</td>
+                        <td>$650000</td>
+                        <td>15/08/2013</td>
+                        <td>Campo</td>
+                        <td>Colonia</td>
+                        <td>52 has</td>
+                        <td>1445<br /> 1446</td>
+                        <td>Da Silva</td>
+                        <td>Noa. K</td>
+                        <td>Noa. K</td>
+                    </tr>
+                    <tr class="detail">
+                    	<td colspan="14">
+                        	<div class="purchase_detail">
+                            	<table>
+                                	<tr>
+                                    	<td>Id</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Fecha escritura</td>
+                                        <td>15/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Cliente</td>
+                                        <td>Smith, Paul</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Tipo</td>
+                                        <td>venta</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Precio</td>
+                                        <td>$650000</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Fecha reserva</td>
+                                        <td>15/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Tipo</td>
+                                        <td>Campo</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Dpto</td>
+                                        <td>Colonia</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Area</td>
+                                        <td>52 has</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Padron</td>
+                                        <td>1445 - 1446</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Broker</td>
+                                        <td>Da Silva</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Escribana</td>
+                                        <td>Noa K.</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Asignado a</td>
+                                        <td>Noa k.</td>
+                                    </tr>
+                                </table>
+                                <table>
+                                	<tr>
+                                    	<td>Seña girada</td>
+                                        <td>$70.000 - 11/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Saldo girado</td>
+                                        <td>$700.000 - 19/09/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>KYC</td>
+                                        <td>Recibido - 10/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>World Check</td>
+                                        <td>Dio OK - 09/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>POA</td>
+                                        <td>Hay - 22/06/2012</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Post-purchase</td>
+                                        <td>Enviado - 16/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Comprador</td>
+                                        <td>Rumsil S.A.</td>
+                                    </tr>                                    
+                                </table>
+                                <table class="observation">
+                                	<tr>
+                                    	<td>Observaciones</td>                                       
+                                    </tr>                     
+                                    <tr>
+                                    	 <td>Compra también parte de la maquinaria agrícola</td>
+                                    </tr>               
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                      	<td><a href="#arrow" class="arrow"></a></td>
+                        <td>1</td>
+                        <td>15/10/2013</td>
+                        <td>Smith, Paul</td>
+                        <td>Venta</td>
+                        <td>$650000</td>
+                        <td>15/08/2013</td>
+                        <td>Campo</td>
+                        <td>Colonia</td>
+                        <td>52 has</td>
+                        <td>1445<br /> 1446</td>
+                        <td>Da Silva</td>
+                        <td>Noa. K</td>
+                        <td>Noa. K</td>
+                    </tr>
+                    <tr class="detail">
+                    	<td colspan="14">
+                        	<div class="purchase_detail">
+                            	<table>
+                                	<tr>
+                                    	<td>Id</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Fecha escritura</td>
+                                        <td>15/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Cliente</td>
+                                        <td>Smith, Paul</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Tipo</td>
+                                        <td>venta</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Precio</td>
+                                        <td>$650000</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Fecha reserva</td>
+                                        <td>15/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Tipo</td>
+                                        <td>Campo</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Dpto</td>
+                                        <td>Colonia</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Area</td>
+                                        <td>52 has</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Padron</td>
+                                        <td>1445 - 1446</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Broker</td>
+                                        <td>Da Silva</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Escribana</td>
+                                        <td>Noa K.</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Asignado a</td>
+                                        <td>Noa k.</td>
+                                    </tr>
+                                </table>
+                                <table>
+                                	<tr>
+                                    	<td>Seña girada</td>
+                                        <td>$70.000 - 11/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Saldo girado</td>
+                                        <td>$700.000 - 19/09/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>KYC</td>
+                                        <td>Recibido - 10/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>World Check</td>
+                                        <td>Dio OK - 09/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>POA</td>
+                                        <td>Hay - 22/06/2012</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Post-purchase</td>
+                                        <td>Enviado - 16/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Comprador</td>
+                                        <td>Rumsil S.A.</td>
+                                    </tr>                                    
+                                </table>
+                                <table class="observation">
+                                	<tr>
+                                    	<td>Observaciones</td>                                       
+                                    </tr>                     
+                                    <tr>
+                                    	 <td>Compra también parte de la maquinaria agrícola</td>
+                                    </tr>               
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                      	<td><a href="#arrow" class="arrow"></a></td>
+                        <td>1</td>
+                        <td>15/10/2013</td>
+                        <td>Smith, Paul</td>
+                        <td>Venta</td>
+                        <td>$650000</td>
+                        <td>15/08/2013</td>
+                        <td>Campo</td>
+                        <td>Colonia</td>
+                        <td>52 has</td>
+                        <td>1445<br /> 1446</td>
+                        <td>Da Silva</td>
+                        <td>Noa. K</td>
+                        <td>Noa. K</td>
+                    </tr>
+                    <tr class="detail">
+                    	<td colspan="14">
+                        	<div class="purchase_detail">
+                            	<table>
+                                	<tr>
+                                    	<td>Id</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Fecha escritura</td>
+                                        <td>15/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Cliente</td>
+                                        <td>Smith, Paul</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Tipo</td>
+                                        <td>venta</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Precio</td>
+                                        <td>$650000</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Fecha reserva</td>
+                                        <td>15/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Tipo</td>
+                                        <td>Campo</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Dpto</td>
+                                        <td>Colonia</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Area</td>
+                                        <td>52 has</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Padron</td>
+                                        <td>1445 - 1446</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Broker</td>
+                                        <td>Da Silva</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Escribana</td>
+                                        <td>Noa K.</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Asignado a</td>
+                                        <td>Noa k.</td>
+                                    </tr>
+                                </table>
+                                <table>
+                                	<tr>
+                                    	<td>Seña girada</td>
+                                        <td>$70.000 - 11/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Saldo girado</td>
+                                        <td>$700.000 - 19/09/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>KYC</td>
+                                        <td>Recibido - 10/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>World Check</td>
+                                        <td>Dio OK - 09/08/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>POA</td>
+                                        <td>Hay - 22/06/2012</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Post-purchase</td>
+                                        <td>Enviado - 16/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Comprador</td>
+                                        <td>Rumsil S.A.</td>
+                                    </tr>                                    
+                                </table>
+                                <table class="observation">
+                                	<tr>
+                                    	<td>Observaciones</td>                                       
+                                    </tr>                     
+                                    <tr>
+                                    	 <td>Compra también parte de la maquinaria agrícola</td>
+                                    </tr>               
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                      	<td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      	<td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      	<td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>                    
+                </tbody>
+            </table>
+        </div>
+        <div class="footer">
+            Rincón 487, piso 4 C.P: 11.000 Montevideo, Uruguay<br />
+            Tel: +(598) 2915 7468 / Fax: +(598) 2916 1352<br />
+            <a href="mailto:info@fs.com.uy">info@fs.com.uy</a>
+        </div>
+    </div>
+</body>
+</html>
