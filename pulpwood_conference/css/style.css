@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('opensans-regular.eot');
+    src: url('opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('opensans-regular.woff') format('woff'),
+         url('opensans-regular.ttf') format('truetype'),
+         url('opensans-regular.svg#OpenSansRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('opensanslight.eot');
+	src: url('opensanslight.eot?#iefix') format('embedded-opentype'),
+		 url('opensanslight.woff') format('woff'),
+		 url('opensanslight.ttf') format('truetype'),
+		 url('opensanslight.svg#OpenSans-Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{margin:0;padding:0;border:none;list-style:none;text-decoration:none;}
+body{font:14px 'OpenSansRegular';}
+h1{font:60px 'OpenSans-Light';text-transform:uppercase;color:#fff;line-height:1;}
+.container{margin:0 auto;width:960px;}
+
+/*==============================================First-Tab==============================================*/
+.slide{background-attachment: fixed;width:100%;float:left;position: relative;}
+
+/*==========Navigation==========*/
+.navigation{position:fixed;z-index:10;top:150px;background:url(../images/nav_border.png) repeat-y center 2px;left:67px;}
+.navigation li{display:block;width:13px;height:14px;background:url(../images/bullet.png) no-repeat center center;margin:130px 0 0;}
+.navigation li:first-child{margin-top:0;}
+.navigation li:hover,.active{cursor:pointer;background:url(../images/active_bullet.png) no-repeat !important;}
+/*==========Navigation-end==========*/
+.lang_box{position:relative;}
+.lang{color:#713422;position:absolute;top:20px;right:-100px;}
+.first_tab{background:url(../images/home_bg.jpg) no-repeat fixed;height:768px;z-index:20;}
+.content_imgbox{height:320px;text-align:center;padding:200px 0 0;}
+.start_tomove, .start_tomove span{float:left;width:100%;text-align:center;}
+.start_tomove span{text-transform:uppercase;color:#723422;margin:0 0 20px 0;}
+.start_tomove a{cursor:pointer;}
+
+/*==============================================Second-Tab==============================================*/
+.first_tab, .second_tab, .third_tab, .fourth_tab, .fifth_tab, .content_imgbox, .content_box, .lang_box, .subscribe{float:left;width:100%;}
+.heading_box{float:left;width:100%;text-align:center;color:#fff;padding:60px 0;position:relative;z-index:1;}
+.heading_box p{font:18px 'OpenSans-Light';margin:30px 0 0;}
+.heading_box .bot_arrow{position:absolute;bottom:-16px;}
+.second_tab .heading_box{background:#cc8567;}
+.img_box{float:left;width:100%;height:450px;}
+.second_tab .img_box{background:url(../images/conference.jpg) no-repeat;}
+
+/*==============================================Third-Tab==============================================*/
+.third_tab .heading_box{background:#7dcd54;}
+.third_tab .img_box{background:url(../images/networking.jpg) no-repeat;}
+
+/*==============================================Fourth-Tab==============================================*/
+.fourth_tab .heading_box{background:#ffc675;}
+.fourth_tab .img_box{background:url(../images/fieldtrap.jpg) no-repeat;}
+
+/*==============================================Fifth-Tab==============================================*/
+.fifth_tab{background:url(../images/newsletter_bg.jpg) no-repeat;}
+.fifth_tab .heading_box{background:none;}
+.subscribe{padding:27px 0 110px 0;}
+.subscribe input[type="text"]{width:288px;height:35px;background:url(../images/textbox_bg.jpg) repeat-x left top #fff;color:#999;font:16px 'OpenSansRegular';padding:0 0 0 12px;border:1px solid #3d281f;border-radius:4px;margin:23px auto 0;display:block;}
+.subscribe input[type="button"], .subscribe input[type="submit"], .subscribe a{background:#ffc675;width:153px;border:1px solid #8e6d4d;text-transform:uppercase;color:#2f1d16;font:16px 'OpenSansRegular';cursor:pointer;height:39px;margin:40px auto 0;display:block;}
+.footer_logo{text-align:center;padding:0 0 80px;}
+
+/*==============================================Responsive==============================================*/
+@media screen and (max-width:1200px)
+{
+	.lang{right:0px;}
+	.container{width:90%;}
+}
+@media screen and (max-width:550px)
+{
+	.content_imgbox img{width:100%;}
+	.navigation{top:20px;left:20px;}
+	.fifth_tab{background-size:100% 100%;}
+}
+@media screen and (max-width:420px)
+{
+	h1{font-size:40px;}
+}
+@media screen and (max-width:360px)
+{
+	.subscribe input[type="text"]{width:93%;}
+}
+@media screen and (max-width:300px)
+{
+	h1{font-size:27px;}
+}
